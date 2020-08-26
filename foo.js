@@ -9,7 +9,7 @@ import api from "../api/index";
  */
 // annie changes top of the files
 const Search = (props) => {
-    let x =0;
+    let x ="hell corps";
     let cardList;
     if (props.searchAPiResult.data && props.searchAPiResult.data.length > 0) {
         cardList = (
