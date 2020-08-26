@@ -7,7 +7,7 @@ import api from "../api/index";
  * Input search component which is used in both header and search module
  * @param {*} props // its a function component so using props via params
  */
-// annie changes
+// annie changes and some features added
 const Search = (props) => {
     let cardList;
     if (props.searchAPiResult.data && props.searchAPiResult.data.length > 0) {
