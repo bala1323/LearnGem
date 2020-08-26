@@ -86,6 +86,7 @@ const Search = (props) => {
                 });
         }
     };
+    //Maggie changes
     function parseQuery(queryString) {
         var query = {};
         var pairs = (queryString[0] === "?"
